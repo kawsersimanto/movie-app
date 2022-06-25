@@ -29,7 +29,6 @@ click [here](https://kawsersimanto.github.io/movie-app/)
 ![App Screenshot](img/movie-app.jpg)
 
 
-![Logo](img/logo.jpg)
 
 
 ## AUTHOR
