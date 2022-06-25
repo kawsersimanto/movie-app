@@ -4,7 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- for SEO  -->
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+    />
 
     <!-- CSS links -->
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -14,9 +20,47 @@
     <title>Template</title>
   </head>
   <body>
-    <main class="mt-5">
+    <header>
+      <!-- navbar  -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-3 text-uppercase" href="#"
+            >Movie App</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <form class="d-flex mt-lg-0 mt-3" role="search">
+              <input
+                class="form-control me-2 bg-transparent"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn fw-semibold" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar  -->
+    </header>
+    <main>
       <div class="container">
-        <div class="row g-4"></div>
+        <div class="row g-sm-4 gx-0 gy-4"></div>
       </div>
     </main>
     <!-- js links  -->

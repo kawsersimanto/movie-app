@@ -11,13 +11,43 @@ body{
   color: var(--text-color);
 }
 
-.movie{
-  width: 300px;
+.navbar-brand{
+  color: var(--primary-color);
+}
+
+.navbar{
+  background-color: var(--info-color);
+}
+
+.nav-item a{
+  color: white;
+}
+
+.form-control,
+.form-control:focus{
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.form-control::placeholder{
+  color: var(--primary-color);
+  opacity: .5;
+}
+
+.btn{
+  background-color: var(--primary-color);
+}
+
+.btn:hover{
+  color: black;
+}
+
+main{
+  margin-top: 110px;
 }
 
 .movie-img img{
   height: 400px;
-  width: 100%;
   object-fit: cover;
 }
 
